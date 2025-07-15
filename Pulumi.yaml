@@ -1,0 +1,11 @@
+name: moodTrackerGo
+description: mood tracker full stack app
+runtime:
+  name: nodejs
+  options:
+    typescript: false
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: hello-aws-javascript
